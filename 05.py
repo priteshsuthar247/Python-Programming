@@ -1,4 +1,5 @@
 def tuple_operations():
+    print("Demonstarion of tuple operations.")
     t1 = (1, 2, 3, 4, 5)
     print(f"Original tuple t1 is: {t1}")
     t2 = t1[1:3]
@@ -11,6 +12,7 @@ def tuple_operations():
     print(f"length of tuple t2 is: {len(t1)}")
 
 def list_operations():
+    print("Demonstarion of list operations.")
     l1 = [1, 2, 3, 4, 5]
     print(f"Original tuple t1 is: {l1}")
     l2 = l1[1:3]
@@ -23,6 +25,7 @@ def list_operations():
     print(f"length of tuple t2 is: {len(l1)}")
 
 def dictionary_operations():
+    print("Demonstarion of dictionary operations.")
     d1 = {'Name': 'Charlie',
                'Age' : 35,
                'City': 'Los Angeles'
@@ -41,5 +44,7 @@ def dictionary_operations():
     print(d4)
     
 tuple_operations()
+print()
 list_operations()
+print()
 dictionary_operations()
